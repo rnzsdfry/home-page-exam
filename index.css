@@ -1,0 +1,72 @@
+body {
+	font-family: "Lacquer";
+}
+.name-nav {
+
+}
+
+.bg-green1 {
+	background-color: #595b4e ;
+}
+
+.bg-green2 {
+	background-color: #754f49 ;
+}
+
+.bg-brown3 {
+	background-color: #aaa68e;
+}
+
+.bg-brown4 {
+	background-color: #CCCABB;
+}
+
+.img-square {
+	height: 50px;
+	width: 50px;
+}
+
+.text-green1 {
+	color: #18180e;
+}
+
+.bg-image {
+	background-image: url('./images/meat.jpg');
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	opacity: .7;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card-body {
+	background-color: #aaa68e;
+}
+
+.carousel-inner {
+  height: 0;
+  padding-bottom: 50%; /* this sets carousel aspect ratio (4:1 here) */
+}
+
+.carousel-item {
+  position: absolute !important; /* Bootstrap is insistent */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.carousel-item img {
+  height: 100%; /* Bootstrap handles width already */
+  object-fit: cover; /* or 'contain' if you want stretch instead of crop */
+}
+
+.font-2 {
+	font-family: "Frijole" !important;
+}
